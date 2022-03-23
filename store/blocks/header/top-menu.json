@@ -1,8 +1,10 @@
 {
   "vtex.menu@2.x:menu#websites": {
+    "props": {
+      "orientation": "vertical"
+    },
     "children": [
-      "menu-item#shop",
-      "menu-item#about-us"
+      "menu-item#shop"
     ]
   },
   "menu-item#shop": {
@@ -21,6 +23,9 @@
     }
   },
   "vtex.menu@2.x:menu#institutional": {
+    "props": {
+      "orientation": "vertical"
+    },
     "children": [
       "menu-item#vtex-website"
     ]

@@ -17,7 +17,7 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: #03044e;
+  background-color: #ffffff;
   color: #fff;
 }
 
@@ -92,3 +92,177 @@
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
 }
+
+/*------------------------------------*/
+/* Primer flex layout header          */
+/*------------------------------------*/
+
+.flexRow--notification--bar{
+  background: black;
+  height: 32px;
+  position: relative;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<*/
+
+/*-------------------------------------*/
+/* segundo flex layout header          */
+/*-------------------------------------*/
+
+/*login y carrito */
+.flexRow--login--and--minicart{
+  background: #f3f3b1;
+  border-radius: 15px;
+  height: 50px;
+  margin-top: 14px;
+}
+
+.flexCol--login{
+  margin-left: 18px;
+  margin-top: 5px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*--------------------------------------*/
+/* primer collage home                  */
+/*--------------------------------------*/
+
+.flexRow--home__collage--imagenes{
+  background: pink;
+  width: 88%;
+  margin-left: 6%;
+  margin-top: 24px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*--------------------------------------*/
+/* segundo collage home                 */
+/*--------------------------------------*/
+
+.flexColChild--home__first--collage--imagenes--2{
+  border: 13px solid white;
+}
+
+.flexColChild--home__second--collage--imagenes--2{
+  border: 13px solid white;
+}
+
+.flexColChild--home__third--collage--imagenes--2{
+  border: 13px solid white;
+}
+
+.flexColChild--home__four--collage--imagenes--2{
+  border: 13px solid white;
+}
+
+.flexColChild--home__five--collage--imagenes--2{
+  border: 13px solid white;
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*parte mobil*/
+/*--------------------------------------*/
+/* primer header mobil                  */
+/*--------------------------------------*/
+
+.flexRow--mobile__home--menu--1{
+  position: relative;
+  background: black;
+}
+
+.flexCol--mobile__home--menu--title--1{
+  margin-left: 18px;
+}
+
+.flexCol--mobile__home--menu--title--2{
+  position: absolute;
+  top: 0px;
+  left: 206px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*------------------------------------*/
+/* segundo headre mobil               */
+/*------------------------------------*/
+
+.flexRow--mobile__home--menu--2{
+  position: relative;
+}
+
+.flexCol--mobile__home--logo{
+  position: absolute;
+  top: 9px;
+  left: 30px;
+}
+
+.flexRow--mobile__home--login--minicart{
+  position: relative;
+  background: yellow;
+  border-radius: 15px;
+}
+
+.flexCol--mobile__home--minicar{
+  position: absolute;
+  top: -13px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><*/
+
+/*--------------------------------------*/
+/* primer collage imagenes              */
+/*--------------------------------------*/
+
+.flexRow--phone__first--collage--2--imagenes{
+  position: relative;
+}
+
+
+.flexCol--phone__third--collage--imagenes--1{
+  position: absolute;
+  top: 248px;
+  left: 201px
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><*/
+
+
+/*----------------------------------------*/
+/* segundo collage de imagenes            */
+/*----------------------------------------*/
+
+
+
+
+.flexRow--phone__second--collage--imagenes{
+  margin-top: 306px;
+}
+
+.flexRow--phone__second--collage--imagenes--first{
+  position: relative;
+}
+
+.flexRow--phone__second--collage--imagenes--second{
+  position: relative;
+}
+/*><>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><*/
+
+/*------------------------------------------*/
+/* footer                                   */
+/*------------------------------------------*/
+
+.flexCol--1-footer-mobile{
+  height: 307px;
+}
+
+.flexCol--redes--sociales{
+  position: relative;
+}
+
+.flexCol--medios--de--pago{
+  position: relative;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/

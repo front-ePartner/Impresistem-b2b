@@ -1,0 +1,61 @@
+/*-----------------------------------*/
+/* menu desktop                      */
+/*-----------------------------------*/
+
+.submenuWrapper--isOpen{
+    width: 275%;
+}
+
+
+.menuItem--text{
+    width: 360px;
+}
+
+.styledLinkContent--texto--menu{
+    color: rgb(146, 146, 146);
+}
+
+.styledLinkContent--texto--menu--phone--sobre--nosotros{
+    color: white;
+}
+
+.styledLinkContent--texto--menu--phone--informacion{
+    color: white;
+}
+
+.styledLinkContent--texto--menu--phone--preguntas--frecuentes{
+    color: white;
+}
+
+.styledLinkContent--texto--menu--phone--terminos--y--condiciones{
+    color: white;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*----------------------------------*/
+/* menu phone                       */
+/*----------------------------------*/
+
+.menuContainerNav--menu--phone{
+    position: relative;
+}
+
+.menuItem--texto--menu--phone--sobre--nosotros{
+   margin-top: 20px;
+}
+
+.menuItem--texto--menu--phone--informacion{
+    position: absolute;
+    top: 124%; 
+}
+
+.menuItem--texto--menu--phone--preguntas--frecuentes{
+    position: absolute;
+    top: 244%; 
+}
+
+.menuItem--texto--menu--phone--terminos--y--condiciones{
+    position: absolute;
+    top: 360%; 
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/

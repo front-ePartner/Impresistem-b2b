@@ -1,37 +1,36 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "__fold__.experimentalLazyAssets",
-      "flex-layout.row#deals",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "slider-layout#home__first-slider-images",
+      "responsive-layout.desktop#rich-text--title--productos--destacados",
+      "responsive-layout.phone#rich-text--title--productos--destacados",
+      "responsive-layout.desktop#flex-layout.row--product__tabs",
+      "responsive-layout.phone#flex-layout.row--product__tabs",
+      "responsive-layout.desktop#flex-layout.row--Ir--a--laptops",
+      "responsive-layout.desktop#flex-layout.row--home__first--collage--imagenes",
+      "responsive-layout.phone#flex-layout.row--home__first--collage--imagenes",
+      "responsive-layout.desktop#flex-layout.row--home__second--collage--imagenes",
+      "responsive-layout.phone#flex-layout.row--home__second--collage--imagenes",
+      "responsive-layout.desktop#rich-text--title--productos--destacados",
+      "responsive-layout.phone#rich-text--title--productos--destacados",
+      "responsive-layout.desktop#flex-layout.row--home__second-slider-images",
+      "responsive-layout.phone#flex-layout.row--home__second-slider-images",
+      "responsive-layout.desktop#flex-layout.row--home__tercer-collage--imagenes",
+      "responsive-layout.phone#flex-layout.row--home__tercer-collage--imagenes",
+      "rich-text#nuestras--marcas",
+      "responsive-layout.desktop#flex-layout.row--home__nuestras--marcas",
+      "responsive-layout.phone#flex-layout.row--home__nuestras--marcas",
+      "responsive-layout.desktop#flex-layout.row--home__second--info--card",
+      "responsive-layout.desktop#flex-layout.row--home__third--info--card",
+      "responsive-layout.phone#rich-text--title--productos--destacados",
+      "responsive-layout.phone#flex-layout.row--home__second-slider-images",
+      "rich-text#home__lo--ultimo--de--impresistem",
+      "responsive-layout.desktop#flex-layout.row--home__third-slider-images",
+      "responsive-layout.phone#flex-layout.row--home__third-slider-images"
+      
     ]
   },
-
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
-    "props": {
-      "height": 720,
-      "images": [
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        }
-      ]
-    }
-  },
-  "slider-layout#demo-images": {
+  "slider-layout#home__first-slider-images": {
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -39,65 +38,98 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "never",
       "blockClass": "carousel"
+    },
+    "children":[
+      "info-card#home__fist--layout",
+      "image#home__second--layout",
+      "image#home__thirt--layout"
+    ]
+  },
+  "info-card#home__fist--layout": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": true,
+      "imageUrl": "https://www.hp.com/co-es/images/tab3_envy_laptop_hero_tcm123_2349870_tcm123_2257649_tcm123-2349870.jpg",
+      "headline": "LAPTOPS SALE",
+      "callToActionText": "EXPLORAR AHORA",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center",
+      "blockClass":"home--first--image--first--layout--firs--slayout"
+    }
+  },
+  "image#home__first--layout":{
+    "props": {
+      "src": "https://www.hp.com/co-es/images/tab3_envy_laptop_hero_tcm123_2349870_tcm123_2257649_tcm123-2349870.jpg"
+    }
+  },
+  "image#home__second--layout":{
+    "props": {
+      "src": "https://www.hp.com/co-es/images/tab3_envy_laptop_hero_tcm123_2349870_tcm123_2257649_tcm123-2349870.jpg"
+    }
+  },
+  "image#home__thirt--layout":{
+    "props": {
+      "src": "https://www.hp.com/co-es/images/tab3_envy_laptop_hero_tcm123_2349870_tcm123_2257649_tcm123-2349870.jpg"
+    }
+  },
+  "rich-text#tabs__content--impresoras":{
+    "props":{
+      "text":"impresoras..."
+    }
+  },
+  "image#second--computer":{
+    "props":{
+      "src": "https://asyco.co/wp-content/uploads/2021/03/asus03.jpg"
+    }
+  },
+  "rich-text#first--computer--text":{
+    "props":{
+      "text":"Computador portatil ASUS (13.3,Intel)  \n Laptop 2 en 1 con tecnologia intel Eco \n opcional, IA y seguridad biometrica"
     }
   },
 
-  "rich-text#shelf-title": {
-    "props": {
-      "text": "## Summer",
-      "blockClass": "shelfTitle"
-    }
-  },
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
-  },
-  "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC"
-    }
-  },
-  "slider-layout#demo-products": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf"
-    }
+
+
+
+
+
+
+
+  "flex-layout.row#Ir--a--laptops":{
+    "children":[
+      "info-card#home__Ir--a--laptos"
+    ]
   },
 
-  "info-card#home": {
+  "info-card#home__Ir--a--laptos": {
     "props": {
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
+      "callToActionText": "IR A LAPTOPS",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-home",
       "textAlignment": "center"
     }
   },
 
-  "rich-text#question": {
+
+
+
+
+  "rich-text#nuestras--marcas": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
+      "text": "**NUESTRAS MARCAS*",
+      "blockClass": "nuestras--marcas"
     }
   },
-
-  "rich-text#link": {
+  
+  "rich-text#home__lo--ultimo--de--impresistem": {
     "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
+      "text": "*LO ULTIMO QUE IMPRESISTEM TIENE PARA TI*",
+      "blockClass": "nuestras--marcas"
     }
   }
 }

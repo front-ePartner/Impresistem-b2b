@@ -9,3 +9,18 @@
 .row--payment-methods {
   padding-top: 16px;
 }
+
+
+/*---------------------------------------*/
+/* footer celular                        */
+/*---------------------------------------*/
+
+.footerLayout--footer--mobile{
+  background-image: url("https://wallpaperstock.net/wallpapers/thumbs1/36259hd.png");
+}
+
+.footerLayout--footer--desktop{
+  background-image: url("https://wallpaperstock.net/wallpapers/thumbs1/36259hd.png");
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/

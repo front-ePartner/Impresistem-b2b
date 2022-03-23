@@ -111,3 +111,275 @@
   font-weight: bold;
   font-size: 30px;
 }
+
+/*---------------------------------*/
+/* logo impresistem       header   */
+/*---------------------------------*/
+
+.logoImage--logo--impresistem{
+  margin-left: 2%;
+  margin-right: 156px;
+
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*---------------------------------*/
+/* recuadro de busqueda            */
+/*---------------------------------*/
+
+.autoCompleteOuterContainer{
+  width: 500px;
+  margin-right: 156px;
+}
+
+.searchBarInnerContainer--search-bar{
+  margin-top: 10px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><*/
+
+/*-------------------------------*/
+/* menu header                   */
+/*-------------------------------*/
+
+.imageElement--img{
+  margin-left: 28%;
+}
+
+.imageElement--arrow{
+  margin-left: 28%;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*-------------------------------*/
+/* slider primera parte home     */
+/*-------------------------------*/
+
+.infoCardContainer{
+  transform: scale(1) !important;
+}
+
+.infoCardContainer--home--first--image--first--layout--firs--slayout{
+  width: 100%;
+  height: 500px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*--------------------------------*/
+/*     boton ir a laptos          */
+/*--------------------------------*/
+
+.infoCardContainer--info-card-home.items{
+  background: white;
+}
+
+.infoCardTextContainer--info-card-home{
+  margin-left: 538px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*-------------------------------*/
+/* primer collage home           */
+/*-------------------------------*/
+
+.imageElement--home__first--image---first--collage{
+  width: 100%;
+}
+
+.imageElement--home__four--image---first--collage{
+  height: 149%;
+}
+
+/*<>>>>>>>>>>>>>>>>>>>>>>>>>>>>><*/
+
+/*-------------------------------*/
+/* segundo collage home          */
+/*-------------------------------*/
+
+.imageElement--home__first--image---second--collage{
+  width: 100%;
+}
+
+.imageElement--home__fourt--image---second--collage{
+  width: 100%;
+  height: 100%;
+}
+
+.imageElement--home__five--image---second--collage{
+  height: 100%;
+}
+
+/*-------------------------------*/
+
+/*-------------------------------*/
+/*   tercer collage home         */
+/*-------------------------------*/
+
+.imageElement--home__first--image---third--collage{
+  width: 100%;
+  height: 100%;
+}
+
+.imageElement--home__second--image---third--collage{
+  width: 100%;
+  height: 100%;
+}
+
+
+/*<>>>>>>>>>>>>>>>>>>>>>>>>><<>*/
+
+/*-------------------------------*/
+/*   cuarto collage home         */
+/*-------------------------------*/
+
+.imageElement--first--img--lo--ultimo{
+  margin-top: -11%;
+}
+
+.imageElement--third--img--lo--ultimo{
+  margin-top: -11%;
+}
+
+.imageElement--four--img--lo--ultimo{
+  margin-top: 0%;
+  height: 99%;
+}
+
+.imageElement--five--img--lo--ultimo{
+  margin-top: -11%;
+}
+
+.imageElement--six--img--lo--ultimo{
+  margin-top: -11%;
+}
+
+/*<>>>>>>>>>>>>>>>>>>>>>>>>><<>*/
+
+
+/*------------------------------*/
+/*  parte footer desktop        */
+/*------------------------------*/
+
+.imageElement--logo--siguenos--instagram{
+  margin-left: 30%;
+}
+
+.imageElement--logo--medios--de--pago--visa{
+  margin-left: 24%;
+}
+
+.imageElement--logo--medios--de--pago--mastercar{
+  margin-left: 48%;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>><>*/
+
+/* parte mobil                 */
+/*-----------------------------*/
+/* primer collage              */
+/*-----------------------------*/
+
+.imageElement--phone__second--image---first--collage{
+  width: 50%;
+  position: absolute;
+  left: 0;
+  height: 263px;
+}
+
+.imageElement--phone__second--image---first--collage--2{
+  width: 50%;
+  height: 263px;
+  position: absolute;
+  left: 50%;
+}
+/*<>>>>>>>>>>>>>>>>>>>>>>>>>><<*/
+
+
+/*----------------------------*/
+/* second collage phone       */
+/*----------------------------*/
+
+.imageElement--phone__first--image---second--collage{
+  height: 173px;
+  margin-left: -59%;
+}
+
+
+.imageElement--phone__second--image---second--collage{
+  width: 146px;
+  position: absolute;
+  margin-left: -59%;
+ border: 8px solid #ffffff;
+}
+
+.imageElement--phone__third--image---second--collage{
+  position: absolute;
+  top: 0px;
+  left: 43%;
+  width: 148px;
+  border: 8px solid #ffffff;
+}
+/*<<<>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*----------------------------*/
+/* footer menu desktop          */
+/*----------------------------*/
+
+.imageElement--phone--facebook{
+  margin-left: 46%;
+}
+
+.imageElement--phone--instagram{
+  position: relative;
+  top: -25px;
+  left: 56%;
+}
+
+.imageElement--phone--payu{
+  margin-left: 4%;
+}
+
+.imageElement--phone--visa{
+  position: relative;
+  top: -25px;
+  left: 18%;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*---------------------------*/
+/* footer menu phone         */
+/*---------------------------*/
+
+.imageElement--phone--first--img--lo--ultimo{
+  height: 201px;
+  margin-top: -23%;
+}
+
+.imageElement--phone--second--img--lo--ultimo{
+  height: 200px;
+  margin-top: -10%;
+}
+
+.imageElement--phone--third--img--lo--ultimo{
+  margin-top: -26%;
+  height: 188px;
+}
+
+.imageElement--phone--four--img--lo--ultimo{
+  height: 186px;
+}
+
+.imageElement--phone--five--img--lo--ultimo{
+  margin-top: -27%;
+  height: 184px;
+}
+
+.imageElement--phone--six--img--lo--ultimo{
+  margin-top: -28%;
+  height: 187px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>*/

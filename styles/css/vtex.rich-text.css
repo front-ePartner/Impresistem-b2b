@@ -88,3 +88,98 @@
     line-height: 1.3em;
   }
 }
+
+/*--------------------------------------*/
+/* primer flex-layout header menu       */
+/*--------------------------------------*/
+
+.wrapper--notification--bar--texto--one{
+  color: #a3a2a2;
+  position: absolute;
+  top: -6px;
+  font-size: 13px;
+  margin-left: 2%;
+}
+
+.wrapper--notification--bar--texto--two{
+  color: #a3a2a2;
+  position: absolute;
+  top: -6px;
+  font-size: 13px;
+}
+
+.wrapper--barra--login--minicart{
+  margin-top: -5px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><*/
+
+/*---------------------------------------*/
+/* rich- text                            */
+/*---------------------------------------*/
+
+.wrapper--title--productos--destacados{
+  margin-left: 6%;
+}
+
+.wrapper--nuestras--marcas{
+  margin-left: 6%;
+}
+
+
+.wrapper--phone--title--productos--destacados{
+  margin-left: 19px;
+    margin-top: 14px;
+}
+
+.paragraph--medios--de--pago{
+  color: white;
+}
+
+.wrapper--footer{
+  color: white;
+}
+
+.wrapper--siguenos--en{
+  color: white;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*parte mobil*/
+/*--------------------------------------*/
+/* primer header mobil                  */
+/*--------------------------------------*/
+
+.wrapper--mobile--title--1 :global(.vtex-rich-text-0-x-paragraph--mobile--title--1){
+  font-size: 10px;
+  color: white;
+}
+
+.wrapper--mobile--title--2 :global(.vtex-rich-text-0-x-paragraph--mobile--title--2){
+  font-size: 10px;
+  color: white;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*-------------------------------------*/
+/* segundo collage mobil               */
+/*-------------------------------------*/
+
+.container--hone__second--collage--imagenes--1--text{
+  position: absolute;
+  top: 26px;
+  left: 44%;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*-----------------------------------*/
+/*                footer             */
+/*-----------------------------------*/
+
+.container--medios--de--pago--phone{
+  margin-left: 37%;
+  color: white;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<*/
